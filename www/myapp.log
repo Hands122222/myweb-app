@@ -1,0 +1,31 @@
+Mon, 11 Sep 2017 11:58:04 orm.py[line:115] INFO found model: User (table: users)
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: id ==> <StringField, varchar(50):id>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: email ==> <StringField, varchar(50):email>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: password ==> <StringField, varchar(50):password>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: admin ==> <BooleanField, boolean:admin>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: name ==> <StringField, varchar(50):name>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: image ==> <StringField, varchar(500):image>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: created_at ==> <FloatField, real:created_at>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:115] INFO found model: Blog (table: blogs)
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: id ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: user_id ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: user_name ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: user_image ==> <StringField, varchar(500):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: name ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: summary ==> <StringField, varchar(200):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: content ==> <TextField, text:None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: created_at ==> <FloatField, real:None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:115] INFO found model: Comment (table: comments)
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: id ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: blog_id ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: user_id ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: user_name ==> <StringField, varchar(50):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: user_image ==> <StringField, varchar(500):None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: content ==> <TextField, text:None>
+Mon, 11 Sep 2017 11:58:04 orm.py[line:121] INFO   found mapping: created_at ==> <FloatField, real:None>
+Mon, 11 Sep 2017 11:58:04 selector_events.py[line:65] DEBUG Using selector: SelectSelector
+Mon, 11 Sep 2017 11:58:04 orm.py[line:20] INFO create database connection pool...
+Mon, 11 Sep 2017 11:58:04 orm.py[line:168] DEBUG using default value for admin: False
+Mon, 11 Sep 2017 11:58:04 orm.py[line:168] DEBUG using default value for created_at: 1505102284.4153214
+Mon, 11 Sep 2017 11:58:04 orm.py[line:168] DEBUG using default value for id: 0015051022844157b4bada650964b5fa771c2f1d854cf1a000
+Mon, 11 Sep 2017 11:58:04 orm.py[line:17] INFO SQL: insert into `users` (`email`, `password`, `admin`, `name`, `image`, `created_at`, `id`) values (?, ?, ?, ?, ?, ?, ?) :()
